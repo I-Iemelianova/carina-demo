@@ -1,0 +1,14 @@
+Test cases that were validated in APIGitHubTest:
+
+1. User is able to get info about user by username.
+2. User can't get info about user that doesn't exist(negative scenario).
+3. User is able to get info about user's followers by username.
+4. User is able to create a new repository.
+5. User is able to get info about repository by username and repository name.
+6. User is able to delete own repository by name(make sure the user gets an appropriate response if repository by name doesn't exist).
+7. User is able to create an issue for the repository by it's name(make sure the user gets an appropriate response if repository by name doesn't exist).
+8. User is able to edit an issue(make sure the desirable field was edited).
+9. User is able to get info about an issue by username, repo name and issue number.
+10. User is able to delete an issue by username, repo name and issue number.
+
+
